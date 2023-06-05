@@ -1,0 +1,125 @@
+body{
+background-color: rgb(0, 0, 0);
+}
+
+nav{
+    display: flex;
+    background-color: rgba(248, 248, 248, 0.993);
+    opacity: 100%;
+    
+    
+
+}
+
+img.Logo{
+    width: 300px;
+    margin-right: 330px;
+   
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+li.Nav{
+    display: flex;
+margin: 0px 20px 0px 0px;
+
+padding-top: 12px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+li.arts{
+    color: white;
+    display: flex;
+font-size: 25px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+a.artss{
+    color: white;
+    font-size: 20px;
+    margin-left: 890px;
+    text-decoration: underline;
+    color: lightgray;
+}
+a.artsz{
+    color: white;
+    font-size: 20px;
+    margin-left: 870px;
+    text-decoration: underline;
+    color: lightgray;
+    display: flex;
+}
+a.artsz2{
+    color: white;
+    font-size: 20px;
+    margin-left: 840px;
+    text-decoration: underline;
+    color: lightgray;
+    display: flex;
+}
+section.aboveartistas{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+
+
+section.artistas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+ 
+
+
+}
+article.artist{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+img.art{
+    width: 350px;
+    height: 330px;
+    border-radius: 5%;
+    opacity: 60%;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    object-fit: cover;
+    overflow: hidden;
+}
+img.art:hover{
+    transform: scale(0.97);
+}
+img.art2:hover{
+    transform: scale(0.97);}
+
+img.art2{
+    width: 350px;
+    height: 330px;
+    border-radius: 5%;
+    opacity: 60%;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    object-fit: cover;
+    overflow: hidden;}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+span{
+    color:white
+}
