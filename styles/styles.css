@@ -16,6 +16,11 @@ img.Logo{
     margin-right: 330px;
    
 }
+div.main{
+    background-color: rgb(17, 17, 17);
+    padding: 12px 0px 0px 0px;
+    border-radius:3%;
+}
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -41,6 +46,7 @@ font-size: 25px;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
 a.artss{
     color: white;
     font-size: 20px;
@@ -64,15 +70,6 @@ a.artsz2{
     color: lightgray;
     display: flex;
 }
-section.aboveartistas{
-    background-color: rgb(0, 0, 0);
-    height: 50px;
-    margin-bottom: 30px;
-    display: flex;
-    
-}
-
-
 section.artistas{
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +78,7 @@ section.artistas{
 
 
 }
-article.artist{
+a.albumesA{
     position: relative;
     text-align: center;
     color: white;
@@ -91,7 +88,6 @@ img.art{
     height: 330px;
     border-radius: 5%;
     opacity: 60%;
-    margin-bottom: 30px;
     transition: 0.5s;
     object-fit: cover;
     overflow: hidden;
@@ -99,27 +95,69 @@ img.art{
 img.art:hover{
     transform: scale(0.97);
 }
-img.art2:hover{
-    transform: scale(0.97);}
-
-img.art2{
-    width: 350px;
-    height: 330px;
-    border-radius: 5%;
-    opacity: 60%;
-    margin-bottom: 10px;
-    transition: 0.5s;
-    object-fit: cover;
-    overflow: hidden;}
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
+    font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.centered1 {
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+h3.down{
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+    margin-top: 0px;
+
 }
 span{
     color:white
+}
+footer{
+    background-color: rgb(0, 0, 0);    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    
+}
+ul.nombres{
+    display: flex;
+}
+
+li.nom{
+    color: white;
+}
+img.fott{
+width: 500px;
+}
+section.albumesSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+ 
+
+
+}
+section.cancionesSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+ 
+
+
+}
+section.artistasSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+ 
+
+
 }
