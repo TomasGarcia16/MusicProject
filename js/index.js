@@ -1,3 +1,4 @@
+
 let url2="https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists"
 let artistasSection= document.querySelector(".artistasSection")
 fetch(url2)
@@ -14,7 +15,7 @@ fetch(url2)
         const artistas= artists[i];
         artistasHTML += `
         <article class="artist">
-        <a class="albumesA" href="detail-album.html?id=${artistas.id}">
+        <a class="albumesA" href="detail-artists.html?id=${artistas.id}">
         <img class="art" src="${artistas.picture_medium}" alt="${artistas.name} Cover">
         
 
@@ -41,6 +42,7 @@ fetch(url)
 })
 
 .then(function(data){
+    console.log(data    )
     const albums= data.data.slice(4,10)
     let albumsHTML=''
 
@@ -48,7 +50,7 @@ fetch(url)
         const album= albums[i];
         albumsHTML += `
         <article class="artist">
-        <a class="albumesA" href="detail-album.html?id=${album.id}">
+        <a class="albumesA" href="./detail-album.html?id=${album.id}">
         <img class="art" src="${album.cover_medium}" alt="${album.title} Cover">
         
 
@@ -97,3 +99,7 @@ fetch(url1)
 .catch(function(error){
     console.log("error:" + error)
 })
+
+
+
+

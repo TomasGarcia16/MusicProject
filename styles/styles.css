@@ -13,7 +13,7 @@ nav{
 
 img.Logo{
     width: 300px;
-    margin-right: 330px;
+    margin-right: 230px;
    
 }
 div.main{
@@ -29,14 +29,35 @@ ul{
 }
 li.Nav{
     display: flex;
-margin: 0px 20px 0px 0px;
+margin: 0px 13px 0px 0px;
 
-padding-top: 12px;
+padding-top: 16px;
+}
+li.form-li{
+    display: flex;
+margin: 0px 20px 0px 0px;
+padding-top: 5px;
+
+}
+input.search-input{
+    height: 22px;
+    border: 1.5px;
+    border-style: solid;
+}
+
+span.material-symbols-outlined {
+color: black;
+
+
+}
+button{
+    height: 40px;
+    border-radius: 20%;
 }
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 36px;
+    font-size: 24px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 li.arts{
@@ -87,7 +108,7 @@ img.art{
     width: 350px;
     height: 330px;
     border-radius: 5%;
-    opacity: 60%;
+    opacity: 70%;
     transition: 0.5s;
     object-fit: cover;
     overflow: hidden;
