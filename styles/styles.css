@@ -13,7 +13,7 @@ nav{
 
 img.Logo{
     width: 300px;
-    margin-right: 230px;
+    margin-right: 380px;
    
 }
 div.main{
@@ -180,5 +180,39 @@ section.artistasSection{
     justify-content: space-around
  
 
+
+}
+h2{
+    color: white;
+    margin-top: 0px;
+    margin-left: 6px
+}
+section.conteiner{
+    display: flex;
+  justify-content: space-around;
+  margin: 10px 80px 10px 80px;
+  background-color: rgb(37, 37, 37);
+  border-radius: 2%;
+  padding: 15px 0px 15px 0px;
+  
+}
+div.c{
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 13px;
+   
+}
+a.cancionest{
+    color: white;
+    font-size: 11px;
+ 
+}
+ul.tracklistt{
+    list-style:circle;
+    color: white;
+    flex-direction: column;
+}
+li.canciones{
+    padding-bottom: 2px;
 
 }

@@ -42,7 +42,7 @@ fetch(url)
 })
 
 .then(function(data){
-    console.log(data    )
+    console.log(data)
     const albums= data.data.slice(4,10)
     let albumsHTML=''
 
