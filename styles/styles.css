@@ -216,3 +216,34 @@ li.canciones{
     padding-bottom: 2px;
 
 }
+main.main-genres{
+    background-color: rgb(27, 27, 27);
+    margin: 10px 10px 10px 10px;
+    border-radius: 2%;
+}
+h1.genre-h1{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+img.imagen-genres{
+    display: flex;
+    margin: 10px;
+
+}
+ul.genres-list{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+h1.titulo-generos{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: white;
+}
+
