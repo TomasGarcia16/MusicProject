@@ -210,6 +210,12 @@ a.detalles-detail-art{
     text-decoration: none;
 
 }
+a.detalles-detail-gen{
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+
+}
 section.conteiner{
     display: flex;
   justify-content: space-around;
@@ -269,6 +275,33 @@ h1.titulo-generos{
     padding-bottom: 15px;
     color: white;
 }
+main.main-genres-detail{
+    background-color: rgb(29, 29, 29);
+    margin: 10px 10px 10px 10px;
+    border-radius: 2%;
+}
+h1.h1-genres{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: white;
+}
+ul.genre-artists{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+h2.h2-artist{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+
+}
+
 
 
 

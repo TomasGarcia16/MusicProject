@@ -16,12 +16,19 @@ fetch(detailUrl)
     let albumCover = album.cover_big;
     let albumGenero= album.genres.data[0].name;
     let albumReleaseDate= album.release_date;
+    let artista= album.artist.id;
+    let artistLink=`detail-artistas.html?id=${artista}`;
+    let genero= album.genres.data[0].id;
+    let genreLink=`detail-genres.html?id=${genero}`;
+
 //.textcontent=funciona como innerHtml o innerText
     document.querySelector(".albumTitle").textContent = albumTitle;
     document.querySelector(".artistName").textContent = artistName;
     document.querySelector(".albumCover").setAttribute("src", albumCover);
     document.querySelector(".albumGenero").textContent =albumGenero ;
     document.querySelector(".albumDate").textContent=albumReleaseDate;
+    document.querySelector(".detalles-detail-art").setAttribute("href", artistLink )
+    document.querySelector(".detalles-detail-gen").setAttribute("href", genreLink )
     
     let trackList=""
     let albumSongs=document.querySelector(".albumSongs")

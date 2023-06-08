@@ -26,16 +26,17 @@ fetch(artistsUrl)
     .then(function(data) {
         console.log(data);
 
-        let genreArtists = document.querySelector('#genre-artists');
+        let genreArtists = document.querySelector('.genre-artists');
         let artistsHTML = '';
 
         for (let i = 0; i < data.data.length; i++) {
             let artist = data.data[i];
             artistsHTML += `
                 <li>
-                    <a href="detail-artist.html?id=${artist.id}">
-                    <p class='raleway'>${artist.name}</p>
+                    <a href="detail-artistas.html?id=${artist.id}">
                     <img src="${artist.picture_medium}" alt="${artist.name}">
+                    <h2 class='h2-artist'>${artist.name}</h2>
+                   
                     </a>
                 </li>
             `;
