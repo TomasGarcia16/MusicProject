@@ -8,14 +8,14 @@ fetch(url2)
 
 .then(function(data){
     console.log(data)
-    const artists= data.data.slice(4,10)
+    let artists= data.data.slice(4,10)
     let artistasHTML=''
 
     for(let i=0;i<artists.length;i++){
-        const artistas= artists[i];
+        let artistas= artists[i];
         artistasHTML += `
         <article class="artist">
-        <a class="albumesA" href="detail-artists.html?id=${artistas.id}">
+        <a class="albumesA" href="detail-artistas.html?id=${artistas.id}">
         <img class="art" src="${artistas.picture_medium}" alt="${artistas.name} Cover">
         
 
@@ -43,11 +43,11 @@ fetch(url)
 
 .then(function(data){
     console.log(data)
-    const albums= data.data.slice(4,10)
+    let albums= data.data.slice(4,10)
     let albumsHTML=''
 
     for(let i=0;i<albums.length;i++){
-        const album= albums[i];
+        let album= albums[i];
         albumsHTML += `
         <article class="artist">
         <a class="albumesA" href="./detail-album.html?id=${album.id}">
@@ -77,14 +77,14 @@ fetch(url1)
 
 .then(function(data){
     console.log(data)
-    const canciones= data.data.slice(0,6)
+    let canciones= data.data.slice(0,6)
     let cancionesHTML=''
 
     for(let i=0;i<canciones.length;i++){
-        const song= canciones[i];
+        let song= canciones[i];
         cancionesHTML += `
         <article class="artist">
-        <a class="albumesA" href="detail-album.html?id=${song.id}">
+        <a class="albumesA" href="detail-canciones.html?id=${song.id}">
         <img class="art" src="${song.album.cover_medium}" alt="${song.title} Cover">
         <h2 class="centered1">${song.title}</h2>
         <h3 class="down">${song.artist.name}</h3>
@@ -99,6 +99,7 @@ fetch(url1)
 .catch(function(error){
     console.log("error:" + error)
 })
+
 
 
 

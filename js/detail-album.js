@@ -1,6 +1,6 @@
 
 let urlDetalles = new URLSearchParams(window.location.search);
-let albumId = urlDetalles.get("id");
+let albumId = urlDetalles.get("id"); //querystring
 
 let detailUrl = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${albumId}`;
 
@@ -27,7 +27,7 @@ fetch(detailUrl)
     let albumSongs=document.querySelector(".albumSongs")
     for (let i = 0; i < album.tracks.data.length ; i++) {
         let track = album.tracks.data[i];
-        trackList += `<li class="canciones" ><a class="cancionest" href="detail-song.html?id=${track.id}">${track.title}</a></li>`;
+        trackList += `<li class="canciones" ><a class="cancionest" href="detail-canciones.html?id=${track.id}">${track.title}</a></li>`;
       }
       albumSongs.innerHTML += `<ul class="tracklistt" >${trackList}</ul>`
 
