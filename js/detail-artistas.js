@@ -3,7 +3,6 @@ let dataId = urlDetalles.get("id"); //querystring
 
 let detailUrl = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${dataId}`;
 
-
 fetch(detailUrl)
   .then(function(response) {
     return response.json();
