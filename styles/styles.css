@@ -11,7 +11,7 @@ span.marquee {
     color: white;
 display: inline-block;
 margin:2px 30px 6.4px 30px;
-font-family: 'Cinzel', serif;
+
 }
 
 nav{
@@ -160,7 +160,7 @@ h3.down{
 }
 span{
     color:white;
-    font-family: 'Cinzel', serif;
+   
 }
 footer{
     background-color: rgb(0, 0, 0);    display: flex;
