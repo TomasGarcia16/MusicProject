@@ -14,8 +14,8 @@ fetch(genresUrl)
             let genre = data.data[i];
             genresHTML += `
                 <li class="lista-genre">
-                    <a href="detail-genres.html?id=${genre.id}">
-                    <img class"imagen-genres" src="${genre.picture_medium}" alt="${genre.name}">
+                    <a class="albumesA" href="detail-genres.html?id=${genre.id}">
+                    <img class"art" src="${genre.picture_medium}" alt="${genre.name}">
                         <h1 class='genre-h1'>${genre.name}</h1>
                         
                     </a>

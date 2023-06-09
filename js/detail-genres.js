@@ -1,6 +1,5 @@
 let genreDetail = document.querySelector('#genre-detail');
-let queryString = location.search;
-let queryStringObj = new URLSearchParams(queryString);
+let queryStringObj = new URLSearchParams(window.location.search);
 let id = queryStringObj.get('id');
 let genreUrl = 'https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/' + id;
 let artistsUrl = 'https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/' + id + '/artists';
@@ -48,8 +47,6 @@ fetch(artistsUrl)
         console.log(error);
     });
 
-console.log(queryString);
-console.log(queryStringObj);
 
 
 
