@@ -141,6 +141,11 @@ img.art:hover{
     margin-bottom: 30px;
     margin-top: 0px;
     font-weight: bold;
+    max-width: 340px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap ;
+
 
     
 }
@@ -276,6 +281,7 @@ h1.genre-h1{
     margin-bottom: 40px;
     margin-top: 0px;
     font-family: 'Cinzel', serif;
+    
 }
 img.imagen-genres{
     display: flex;
