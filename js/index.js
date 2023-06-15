@@ -99,10 +99,3 @@ fetch(url1)
 .catch(function(error){
     console.log("error:" + error)
 })
-
-
-
-
-
-
-

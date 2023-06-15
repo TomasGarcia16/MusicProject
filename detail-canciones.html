@@ -7,20 +7,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
 </head>
 
 <body>
-   <nav>
+    <nav>
         <ul>
             <li ><a href="./Index.html"><img class="Logo" src="./imgs/image-removebg-preview (8).png" alt=""></a></li>
             <li class="Nav"><a href="./genres.html"> Generos</a></li>
             <li class="Nav"><a href="">|</a></li>
-            <li class="Nav"><a href=""> PlayList</a></li>
+            <li class="Nav"><a href="./playlist.html"> PlayList</a></li>
             <li class="Nav"><a href="">|</a></li>
-            <li class="form-li"><form action="search-result.html" id="search-form">
+            <li class="form-li">
+                <form action="./detail-artistas.html" id="search-form">
                 <input type="text" class="search-input" id="search-input1" placeholder="Buscar...">
                 <button type="submit" id="search-button"><span class="material-symbols-outlined">
                     search
@@ -48,6 +50,16 @@
                <a class="detalles-detail-art" href=""> <h2 class="artistName"></h2></a>
             
         </div>
+        <div class="c">
+            <button class="addToFavoritesButton"><span class="material-symbols-outlined">
+                favorite
+                </span></button>
+            <a class="play" href="./playlist.html">Ir a mi playlist</a>
+        </div>
+        <div class="c">
+            <audio class="audio" controls>
+                <source  src="" type="audio/mpeg">
+              </audio>
         </div>
     </div>
     <div class="b"><img class="albumCover" src="" alt="Album Cover"></div>
