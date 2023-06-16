@@ -14,6 +14,8 @@ function loadPlaylist() {
       let listItem = document.createElement("li");
       listItem.textContent = item.title;
       let deleteButton = document.createElement("button");
+
+
       deleteButton.textContent = "Eliminar";
       deleteButton.addEventListener("click", function() {
         removeFromFavorites(item.id);
@@ -21,7 +23,7 @@ function loadPlaylist() {
   
    
       listItem.appendChild(deleteButton);
-  
+
  
       playlist.appendChild(listItem);
     }
