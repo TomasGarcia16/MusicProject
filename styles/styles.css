@@ -46,6 +46,7 @@ font-family: 'Cinzel', serif;
 
 padding-top: 16px;
 }
+
 li.form-li{
     display: flex;
 margin: 0px 20px 0px 0px;
@@ -376,6 +377,77 @@ div.playlistSection{
     background-color: rgb(29, 29, 29) ;
     border-radius: 3%;
 }
+h2.centered2{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+    max-width: 340px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap ;
 
 
+}
+h2.centered3{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;;
+    font-weight: bold;
+    max-width: 340px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap ;
 
+
+}
+img.imgbusqueda{
+    width: 350px;
+    height: 330px;
+    border-radius: 5%;
+    opacity: 70%;
+    transition: 0.5s;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0px 10px 0px 10px ;
+}
+img.imgbusqueda:hover{
+    transform: scale(0.97);
+}
+li.resultadosdebusqueda{
+    background-color: rgb(28, 28, 28);
+    margin: 30px 18px 20px 5px;
+    border-radius: 3%;
+    
+}
+h2.centered4{
+    display: flex;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;;
+    font-weight: bold;
+
+
+}
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

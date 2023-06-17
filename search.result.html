@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./imgs/unnamed.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Resultados</title>
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li ><a href="./Index.html"><img class="Logo" src="./imgs/image-removebg-preview (8).png" alt=""></a></li>
+            <li class="Nav"><a href="./genres.html"> Generos</a></li>
+            <li class="Nav"><a href="">|</a></li>
+            <li class="Nav"><a href="./playlist.html"> PlayList</a></li>
+            <li class="Nav"><a href="">|</a></li>
+            <li class="form-li">
+                <form class="barradebusqueda" action="./search.result.html" method="get">
+                    <input name="buscador" id="" cols="" rows="" placeholder="Buscar..."></input>
+                <button type="submit" id="search-button"><span class="material-symbols-outlined">
+                    search
+                    </span></button>
+            </form></li>
+
+        </ul>
+    </nav>
+    <section>
+        <h2 class="centered4">Resultados de tu búsqueda: </h2>
+        <ul class="resultados-busqueda">
+            <div id="loader" class="loader"></div>
+
+        </ul>
+    </section>
     <script src="./js/search-result.js"></script>
 </body>
 </html>

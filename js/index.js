@@ -1,4 +1,5 @@
 
+
 let url2="https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists"
 let artistasSection= document.querySelector(".artistasSection")
 fetch(url2)
